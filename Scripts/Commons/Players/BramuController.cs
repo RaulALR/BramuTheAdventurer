@@ -66,6 +66,10 @@ public class BramuController : MonoBehaviour
         {
             GameController.IncreasePoint(2);
         }
+        else if (other.gameObject.tag == "Point3")
+        {
+            GameController.IncreasePoint(3);
+        }
     }
     private void PlayAudio(AudioClip clip)
     {

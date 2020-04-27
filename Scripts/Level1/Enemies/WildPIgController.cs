@@ -11,7 +11,7 @@ public class WildPIgController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
-        rb2d.velocity = Vector2.left * Random.Range(5f, 10f);
+        rb2d.velocity = Vector2.left * 5.5f;// Random.Range(5f, 8f);
     }
 
     private void Update()
@@ -27,11 +27,6 @@ public class WildPIgController : MonoBehaviour
         if (other.gameObject.tag == "Destroyer")
         {
             Destroy(gameObject);
-        }
-        else if (other.gameObject.tag == "Player")
-        {
-            GameController.SetGameState(GameController.EGameState.Ended);
-            StopAnimation();
         }
     }
 

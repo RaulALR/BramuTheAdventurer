@@ -29,10 +29,12 @@ public class Level1Controller : MonoBehaviour
 
     // Generators
     public GameObject cloudGenerator;
-    public GameObject wolfGenerator;
+    public GameObject enemiesGenerator;
 
+    // Texts
     public GameObject UIGameOver;
     public GameObject UIPoints;
+    public GameObject UILevelUnlock;
 
     public Text pointText;
     public Text currentPoints;
@@ -41,11 +43,11 @@ public class Level1Controller : MonoBehaviour
     //General audio
     private AudioSource audioTheme;
 
-
     void Start()
     {
+        GameController.SetCurrentLevel("HillLevelScene");
         cloudGenerator.GetComponent<CloudsGeneratorController>().StartGenerator();
-        wolfGenerator.GetComponent<WolfGeneratorController>().StartGenerator();
+        enemiesGenerator.GetComponent<Level1EnemiesGeneratorController>().StartGenerator();
         GameController.SetGameState(GameController.EGameState.Playing);
         audioTheme = GetComponent<AudioSource>();
         audioTheme.Play();
@@ -60,10 +62,17 @@ public class Level1Controller : MonoBehaviour
         } else if (GameController.GetGameState() == GameController.EGameState.Ended)
         {
             UIGameOver.SetActive(true);
+            DisableUIUnlock();
             UIPoints.SetActive(false);
             currentPoints.text = "Current points: " + pointText.text.ToString();
             bestScore.text = "Best score: " + PlayerPrefs.GetInt("Level1").ToString();
             GameController.RestartPoint();
+        }
+
+        if(PlayerPrefs.GetInt("level2MsgShow") == 0 & GameController.GetLockLevel(2) & GameController.GetPoints() >= 50){
+            UILevelUnlock.SetActive(true);
+            PlayerPrefs.SetInt("level2MsgShow", 1);
+            Invoke("DisableUIUnlock", 4);
         }
 
         audioTheme.volume = SoundController.GetVolume();
@@ -93,5 +102,10 @@ public class Level1Controller : MonoBehaviour
     public GameController.EGameState GetLevelState()
     {
         return GameController.GetGameState();
+    }
+
+    private void DisableUIUnlock()
+    {
+        UILevelUnlock.SetActive(false);
     }
 }

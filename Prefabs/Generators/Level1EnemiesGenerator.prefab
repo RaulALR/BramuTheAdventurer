@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5190715505639193428}
   - component: {fileID: 5190715505639193429}
   m_Layer: 0
-  m_Name: WolfGenerator
+  m_Name: Level1EnemiesGenerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,5 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a89fdbce96be8074e80d859bff7e2785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 2059077355966137837, guid: 745e9df9bc0b95d4e8b6bfe77c0205a6,
+  wolfPrefab: {fileID: 2059077355966137837, guid: 745e9df9bc0b95d4e8b6bfe77c0205a6,
+    type: 3}
+  wildPigPrefab: {fileID: 1206063302016955756, guid: 77e6271e2e054e44693f5e2dd84430b4,
     type: 3}

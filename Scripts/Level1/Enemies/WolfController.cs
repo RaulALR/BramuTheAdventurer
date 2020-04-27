@@ -11,7 +11,7 @@ public class WolfController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
-        rb2d.velocity = Vector2.left * Random.Range(5f, 10f);
+        rb2d.velocity = Vector2.left * 6f; // Random.Range(5f, 7f);
     }
 
     private void Update()
@@ -28,11 +28,6 @@ public class WolfController : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        else if (other.gameObject.tag == "Player")
-        {
-            GameController.SetGameState(GameController.EGameState.Ended);
-            StopAnimation();
-        }
     }
 
     private void StopAnimation()
@@ -40,4 +35,5 @@ public class WolfController : MonoBehaviour
         animator.Play("WolfIdle");
         rb2d.velocity = Vector2.left * 0f;
     }
+
 }

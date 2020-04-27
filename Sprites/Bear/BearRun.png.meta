@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 84405813c2f4b4348852861083913357
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3216358820505111542
+    second: BearRun_0
+  - first:
+      213: 7644473075380822617
+    second: BearRun_1
+  - first:
+      213: -3252758472659613900
+    second: BearRun_2
+  - first:
+      213: 1927310547658906800
+    second: BearRun_3
+  - first:
+      213: -563548947336603235
+    second: BearRun_4
+  - first:
+      213: -1184793591832766543
+    second: BearRun_5
+  - first:
+      213: -5654794022277779123
+    second: BearRun_6
+  - first:
+      213: -3993794608091337280
+    second: BearRun_7
+  - first:
+      213: -495609394744592108
+    second: BearRun_8
+  - first:
+      213: -4297580249014004800
+    second: BearRun_9
+  - first:
+      213: 1315829461655591348
+    second: BearRun_10
+  - first:
+      213: 715070633080766519
+    second: BearRun_11
+  - first:
+      213: 1855680344252417816
+    second: BearRun_12
+  - first:
+      213: 7190940430782792236
+    second: BearRun_13
+  - first:
+      213: -9086554796065131020
+    second: BearRun_14
+  - first:
+      213: -1145624022310937646
+    second: BearRun_15
+  - first:
+      213: -3221881044399018023
+    second: BearRun_16
+  - first:
+      213: 9088631726089733832
+    second: BearRun_17
+  - first:
+      213: 1359462170913759671
+    second: BearRun_18
+  - first:
+      213: 4619553564607208542
+    second: BearRun_19
+  - first:
+      213: -2642902373104251347
+    second: BearRun_0
+  - first:
+      213: -3884170477013027950
+    second: BearRun_1
+  - first:
+      213: 7596385097671272499
+    second: BearRun_2
+  - first:
+      213: 8017846381353732537
+    second: BearRun_3
+  - first:
+      213: 1335071210691927993
+    second: BearRun_4
+  - first:
+      213: -8405002628123089674
+    second: BearRun_5
+  - first:
+      213: 5425446206346914702
+    second: BearRun_6
+  - first:
+      213: -7640813832204093419
+    second: BearRun_7
+  - first:
+      213: -5823253280687951552
+    second: BearRun_8
+  - first:
+      213: -5801338299920477331
+    second: BearRun_9
+  - first:
+      213: 4269234706403439619
+    second: BearRun_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 312
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BearRun_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 310
+        width: 77
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e851b5b46825bd0800000000000000
+      internalID: -2642902373104251347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearRun_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 310
+        width: 78
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2933496c787a81ac0800000000000000
+      internalID: -3884170477013027950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearRun_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 310
+        width: 77
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b98d30bdcc154f60800000000000000
+      internalID: 8017846381353732537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearRun_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 226
+        width: 81
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4af7e24ae6b5b80800000000000000
+      internalID: -8405002628123089674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearRun_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 226
+        width: 82
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b6c45549e0b4b40800000000000000
+      internalID: 5425446206346914702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BearRun_8
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 223
+        width: 85
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041777f7ef5af2fa0800000000000000
+      internalID: -5823253280687951552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

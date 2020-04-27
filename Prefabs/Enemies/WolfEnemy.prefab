@@ -103,7 +103,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cee5de024be171349b39a1d332bcb45e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wolfClip: {fileID: 8300000, guid: a7b5569619a5b2f44afa7d12a6cfb96d, type: 3}
 --- !u!50 &2059077355966137824
 Rigidbody2D:
   serializedVersion: 4
@@ -162,8 +161,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2059077356687434740}
   m_LocalRotation: {x: -0.0035631133, y: -0.005771449, z: -0.5253095, w: 0.8508842}
-  m_LocalPosition: {x: 1.08, y: 0.71, z: 0.01}
-  m_LocalScale: {x: 0.1399365, y: 1.6398495, z: 0.93291}
+  m_LocalPosition: {x: 1.51, y: 0.89, z: 0.01}
+  m_LocalScale: {x: 0.1399365, y: 2.6203156, z: 0.93291}
   m_Children: []
   m_Father: {fileID: 2059077355966137836}
   m_RootOrder: 1
